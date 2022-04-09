@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+p {
+  text-align: justify;
+}
+
+#banner {
+  background-color: #6486b3;
+  padding: 16px;
+  position: relative;
+}
+
+#banner > img {
+  border-radius: 8px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+#banner > p {
+  color: white;
+  font-family: 'Yuji Boku', serif;
+  font-size: 62px;
+  position: absolute;
+  left: 186px;
+  top: 40px;
+  margin: 0;
+}
+
+.menu-nav {
+  font-family: 'Kosugi Maru';
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: -16px;
+}
+
+.nav-item {
+  display: inline-block;
+  border-left: 1px solid white;
+  padding: 8px 16px;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: #6486b3;
+}
+
+.container {
+  padding: 0 16px;
+  margin-right: 416px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table > thead {
+  border-bottom: solid 4px lightgrey;
+}
+
+.table > tbody > tr {
+  border-bottom: solid 1px lightgray;
+}
+
+.table th, .table td {
+  padding: 8px 16px;
+}
+
+.side-bar {
+  background-color: #a2d6ab;
+  width: 400px;
+  position: absolute;
+  right: 16px;
+  top: 198px;
+  padding: 0 16px;
+}
+
+.form-group {
+  margin-bottom: 8px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid lightslategray;
+}
+
+.form-control:focus-visible {
+  outline: none;
+  box-shadow: 0 0 10px #3486f1b9;
+}
+
+[required] {
+  border-color: red;
+}
+
+textarea {
+  resize: none;
+}
